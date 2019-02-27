@@ -1,0 +1,1536 @@
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:31:56 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with 'primary' found.):
+  
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1009:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:40:58 -0500
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with 'primary' found.):
+  
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1009:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:43:00 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Schmidward/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Schmidward/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 29ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:43:18 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Schmidward/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Schmidward/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:43:21 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Schmidward/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Schmidward/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:45:23 -0500
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:46:12 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1460ms (Views: 1458.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:51:07 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:52:18 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 18:52:29 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:04:28 -0500
+  
+SyntaxError (/Users/Schmidward/Desktop/rock_paper_scissors/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get '/throw' to: 'pages/throw'
+               ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:04:43 -0500
+  
+SyntaxError (/Users/Schmidward/Desktop/rock_paper_scissors/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+  get '/throw' to: 'pages#throw'
+               ^~):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:05:41 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:05:44 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:05:46 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:05:47 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:05:51 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:06:01 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:6:in `throw'
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:06:09 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:06:36 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/test.html.erb within layouts/application
+  Rendered pages/test.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:06:38 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:06:40 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:06:41 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/test.html.erb within layouts/application
+  Rendered pages/test.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:09:11 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:09:13 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 283ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template <!doctype html>
+<html>
+<head>
+  <title>Curb Rock, Paper, Scissors · Apiary</title>
+  <meta charset="utf-8">
+
+  <meta name="google-site-verification" content="2xk1RgCJ7lGo7pJ826cos7moPjcExpih-yXTxfTJ7KU">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="description" content="A place where APIs are kept.">
+  <meta name="author" content="Apiary">
+
+  <meta name="referrer" content="origin">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="canonical" href="https://curbrockpaperscissors.docs.apiary.io/">
+  <link rel="shortcut icon" href="https://static.apiary.io/assets/3aqvBs0H.ico">
+  <link rel="apple-touch-icon-precomposed" href="https://static.apiary.io/assets/2LhCErCD.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://static.apiary.io/assets/kcRGh7aY.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://static.apiary.io/assets/3y9KoZlJ.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://static.apiary.io/assets/fX9wgjhh.png">
+
+    <!-- atom feed autodiscovery -->
+  <link rel="alternate" type="application/atom+xml" title="API changes - Atom feed" href="https://curbrockpaperscissors.docs.apiary.io/feed" />
+  <link rel="alternate" type="application/rss+xml" title="API changes - RSS feed" href="https://curbrockpaperscissors.docs.apiary.io/feed/rss">
+  
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/cboekbiaoabkhgjdclenjpipclabkdga">
+  
+
+  <!-- Styles -->
+  <link rel='stylesheet' crossorigin="anonymous" href="https://static.apiary.io/assets/docs-e13c48ff.css">  <!-- /Styles -->
+
+</head>
+  <body id="application" class="app API_DOCUMENTATION">
+
+    <noscript>
+      <div class="noscript">
+        <a href="https://apiary.io/" title="Apiary Home">
+          <img src="https://static.apiary.io/assets/v6Zkz37_.png" alt="Apiary Logo" class="noscript__logo">
+        </a>
+
+        <div class="noscript__header">
+          <span class="noscript__jslogo"></span>
+          JavaScript is disabled
+        </div>
+
+        <div class="noscript__help">
+          Please continue <a href="http://enable-javascript.com/" class="noscript__link">here</a> to find out how to
+          <br>
+          enable it in your browser.
+        </div>
+      </div>
+    </noscript>
+
+    
+
+        <!-- Header -->
+    <div id="applicationHeaderContainer"></div>
+    <!-- /Header -->
+    
+    <!-- Content -->
+    <div id="applicationContent">
+          </div>
+    <!-- /Content -->
+
+    <!-- Loading -->
+    <div id="applicationLoading"></div>
+    <!-- /Loading -->
+
+    <!-- LoadingBar -->
+    <div id="applicationLoadingBarContainer" class="hidden">
+      <div id="applicationLoadingBar"></div>
+    </div>
+    <!-- LoadingBar -->
+
+  </body>
+
+  <!-- Legacy Bootstrap -->
+  <script>
+    if (!window.config) {
+      window.config = {};
+    }
+
+    window.csrf = "";
+    window.jsLoginUrl    = "";
+        window.trafficSecret = "";
+    window.runExampleIframeUrl = "/___APIARY_INTERNAL___/docs/run-button";
+    window.tryItUrl    = "";
+    window.mockserverUrl    = "";
+    window.loginUri      = "";
+    window.baseDomain    = "";
+
+        window.config.baseAjaxUrl = "https://curbrockpaperscissors.docs.apiary.io/";
+    window.previewHelpers = window.previewHelpers || {};
+
+    
+    window.previewHelpers.apiUrl = window.previewHelpers.mockserverUrl = "";
+
+      </script>
+  <!-- /Legacy Bootstrap -->
+
+  <!-- Bootstrap -->
+  <script>
+    if (!window.Apiary) {
+      window.Apiary = {};
+    }
+    window.Apiary.PAGE = "API_DOCUMENTATION";
+    window.Apiary.APPLICATION_DATA = {"apiName":"Curb Rock, Paper, Scissors","apiSubdomain":"curbrockpaperscissors","networkInitialCache":"{\"https://jsapi.apiary.io/user\":{\"body\":{},\"rawBody\":\"\",\"headers\":{},\"statusCode\":404},\"https://jsapi.apiary.io/apis/curbrockpaperscissors\":{\"statusCode\":200,\"body\":{\"name\":\"Curb Rock, Paper, Scissors\",\"subdomain\":\"curbrockpaperscissors\",\"rootSubdomain\":\"curbrockpaperscissors\",\"lastUpdated\":\"2019-01-06T20:31:55.504Z\",\"apiDescriptionFormat\":\"apiblueprint\",\"owner\":{\"_id\":\"5411f121493f020200000132\",\"name\":\"Curb \"},\"user\":{\"trafficSecret\":\"a5e14c59c0\",\"isAnonymous\":true},\"urls\":{\"mock\":\"https://private-anon-a5e14c59c0-curbrockpaperscissors.apiary-mock.com/rps-stage/\",\"production\":\"https://5eddt4q9dk.execute-api.us-east-1.amazonaws.com/rps-stage/\",\"proxy\":\"https://private-anon-a5e14c59c0-curbrockpaperscissors.apiary-proxy.com/rps-stage/\"},\"preferences\":{\"privateTraffic\":true,\"privateDocumentation\":false,\"defaultConsoleMode\":\"cloud\",\"documentation\":{}},\"permissions\":{\"editApi\":false,\"accessApiSettings\":false,\"inviteViewer\":false,\"inviteEditor\":false,\"viewTests\":false,\"viewApiBlueprint\":false},\"editors\":[],\"team\":{\"_id\":\"5411f121493f020200000131\"},\"authDefinitions\":[],\"dataStructures\":[],\"blueprint\":\"\",\"description\":\"\",\"toc\":{\"introduction\":[]},\"resourceGroups\":[{\"name\":\"\",\"description\":\"\",\"resources\":[{\"name\":\"Throws\",\"model\":{},\"headers\":{},\"parameters\":[],\"uriTemplate\":\"/throw\",\"actions\":[{\"name\":\"Retrieve throw\",\"relation\":\"\",\"uriTemplate\":\"\",\"description\":\"\\u003Cp\\u003EReturns a throw (&quot;rock&quot;, &quot;paper&quot;, &quot;scissors&quot;) on sunny days. May error due to weather conditions.\\u003C/p\\u003E\",\"method\":\"GET\",\"parameters\":[],\"headers\":{},\"examples\":[{\"requests\":[{\"body\":\"\",\"schema\":\"\",\"description\":\"\",\"headers\":{},\"headers1A\":[],\"name\":\"\",\"authSchemes\":[]}],\"responses\":[{\"body\":\"{\\n    \\\"statusCode\\\": 200,\\n    \\\"body\\\": \\\"rock\\\"\\n}\",\"schema\":\"\",\"description\":\"\",\"headers\":{\"Content-Type\":\"application/json\"},\"headers1A\":[{\"name\":\"Content-Type\",\"value\":\"application/json\"}],\"status\":\"200\"},{\"body\":\"{\\n    \\\"statusCode\\\": 500,\\n    \\\"body\\\": \\\"Something went wrong. Please try again later.\\\"\\n}\",\"schema\":\"\",\"description\":\"\",\"headers\":{\"Content-Type\":\"application/json\"},\"headers1A\":[{\"name\":\"Content-Type\",\"value\":\"application/json\"}],\"status\":\"500\"}],\"name\":\"\",\"description\":\"\"}]}],\"description\":\"\"}]}]},\"rawBody\":\"\",\"headers\":{}}}","applicationName":"docs","features":{"3ColumnDocumentation":true,"highlightCharLimit":10000,"clientSideConsole":true,"browserExtensionConsole":true,"clientSideProxyConsole":null},"chromeExtensionId":"cboekbiaoabkhgjdclenjpipclabkdga","circleCi":null,"domain":"apiary.io","embedded":false,"isPreview":false,"environment":"production","logLevel":"error","port":"59489","ssl":null,"sslPort":null,"staticHostPath":"https://static.apiary.io/assets","staticMap":null,"titleSeparator":"\u00B7","isAnonymousApi":false,"supportEmail":"support@apiary.io","apiEditorFeatures":{"fasterAnnotations":1,"fasterAnnotationsTimeout":750,"fasterAnnotationsParserEndpoint":"https://helium.apiary-services.com/validate"},"tracking":{"googleAnalytics":{"trackerName":"ApiaryTracker","trackingId":"18252923-1","url":"https://www.google-analytics.com/analytics.js"}},"headerAnnouncementBar":false,"trialUntil":"Nov 1","ocp":1};
+  </script>
+    <!-- /Bootstrap -->
+
+  <!-- JavaScripts -->
+  <script crossorigin="anonymous">window.webpackManifest = {"0":"0-2df7613b.js","1":"1-2df7613b.js","2":"2-2df7613b.js","3":"3-2df7613b.js","4":"4-2df7613b.js","5":"5-2df7613b.js","6":"6-2df7613b.js","7":"7-2df7613b.js","8":"8-2df7613b.js","9":"9-2df7613b.js","10":"10-2df7613b.js","11":"11-2df7613b.js","12":"12-2df7613b.js","13":"13-2df7613b.js","14":"14-2df7613b.js","15":"15-2df7613b.js","16":"16-2df7613b.js","17":"17-2df7613b.js","18":"18-2df7613b.js","19":"19-2df7613b.js","20":"20-2df7613b.js","21":"21-2df7613b.js","22":"22-2df7613b.js","23":"23-2df7613b.js","24":"24-2df7613b.js","25":"25-2df7613b.js","26":"26-2df7613b.js","27":"27-2df7613b.js","28":"28-2df7613b.js","29":"29-2df7613b.js"}</script><script src="https://static.apiary.io/assets/vendor-2df7613b.js" crossorigin="anonymous"></script><script src="https://static.apiary.io/assets/docs-2df7613b.js" crossorigin="anonymous"></script>  <!-- /JavaScripts -->
+</html>
+ with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:9:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:24:18 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:24:28 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:25:12 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:25:15 -0500
+Processing by PagesController#throw as HTML
+Completed 406 Not Acceptable in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#throw is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.2) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:25:34 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:25:35 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:25:36 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:25:36 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:25:36 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:25:37 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 53ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:25:39 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:31:14 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/controllers/pages_controller.rb:6:in `throw'
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:32:02 -0500
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/controllers/pages_controller.rb:2:in `<class:PagesController>'
+app/controllers/pages_controller.rb:1:in `<main>'
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:33:20 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+RestClient::NotFound (404 Not Found):
+  
+app/controllers/pages_controller.rb:8:in `throw'
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:36:52 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 533ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template <!doctype html>
+<html>
+<head>
+  <title>Curb Rock, Paper, Scissors · Apiary</title>
+  <meta charset="utf-8">
+
+  <meta name="google-site-verification" content="2xk1RgCJ7lGo7pJ826cos7moPjcExpih-yXTxfTJ7KU">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="description" content="A place where APIs are kept.">
+  <meta name="author" content="Apiary">
+
+  <meta name="referrer" content="origin">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="canonical" href="https://curbrockpaperscissors.docs.apiary.io/">
+  <link rel="shortcut icon" href="https://static.apiary.io/assets/3aqvBs0H.ico">
+  <link rel="apple-touch-icon-precomposed" href="https://static.apiary.io/assets/2LhCErCD.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://static.apiary.io/assets/kcRGh7aY.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://static.apiary.io/assets/3y9KoZlJ.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://static.apiary.io/assets/fX9wgjhh.png">
+
+    <!-- atom feed autodiscovery -->
+  <link rel="alternate" type="application/atom+xml" title="API changes - Atom feed" href="https://curbrockpaperscissors.docs.apiary.io/feed" />
+  <link rel="alternate" type="application/rss+xml" title="API changes - RSS feed" href="https://curbrockpaperscissors.docs.apiary.io/feed/rss">
+  
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/cboekbiaoabkhgjdclenjpipclabkdga">
+  
+
+  <!-- Styles -->
+  <link rel='stylesheet' crossorigin="anonymous" href="https://static.apiary.io/assets/docs-e13c48ff.css">  <!-- /Styles -->
+
+</head>
+  <body id="application" class="app API_DOCUMENTATION">
+
+    <noscript>
+      <div class="noscript">
+        <a href="https://apiary.io/" title="Apiary Home">
+          <img src="https://static.apiary.io/assets/v6Zkz37_.png" alt="Apiary Logo" class="noscript__logo">
+        </a>
+
+        <div class="noscript__header">
+          <span class="noscript__jslogo"></span>
+          JavaScript is disabled
+        </div>
+
+        <div class="noscript__help">
+          Please continue <a href="http://enable-javascript.com/" class="noscript__link">here</a> to find out how to
+          <br>
+          enable it in your browser.
+        </div>
+      </div>
+    </noscript>
+
+    
+
+        <!-- Header -->
+    <div id="applicationHeaderContainer"></div>
+    <!-- /Header -->
+    
+    <!-- Content -->
+    <div id="applicationContent">
+          </div>
+    <!-- /Content -->
+
+    <!-- Loading -->
+    <div id="applicationLoading"></div>
+    <!-- /Loading -->
+
+    <!-- LoadingBar -->
+    <div id="applicationLoadingBarContainer" class="hidden">
+      <div id="applicationLoadingBar"></div>
+    </div>
+    <!-- LoadingBar -->
+
+  </body>
+
+  <!-- Legacy Bootstrap -->
+  <script>
+    if (!window.config) {
+      window.config = {};
+    }
+
+    window.csrf = "";
+    window.jsLoginUrl    = "";
+        window.trafficSecret = "";
+    window.runExampleIframeUrl = "/___APIARY_INTERNAL___/docs/run-button";
+    window.tryItUrl    = "";
+    window.mockserverUrl    = "";
+    window.loginUri      = "";
+    window.baseDomain    = "";
+
+        window.config.baseAjaxUrl = "https://curbrockpaperscissors.docs.apiary.io/";
+    window.previewHelpers = window.previewHelpers || {};
+
+    
+    window.previewHelpers.apiUrl = window.previewHelpers.mockserverUrl = "";
+
+      </script>
+  <!-- /Legacy Bootstrap -->
+
+  <!-- Bootstrap -->
+  <script>
+    if (!window.Apiary) {
+      window.Apiary = {};
+    }
+    window.Apiary.PAGE = "API_DOCUMENTATION";
+    window.Apiary.APPLICATION_DATA = {"apiName":"Curb Rock, Paper, Scissors","apiSubdomain":"curbrockpaperscissors","networkInitialCache":"{\"https://jsapi.apiary.io/user\":{\"body\":{},\"rawBody\":\"\",\"headers\":{},\"statusCode\":404},\"https://jsapi.apiary.io/apis/curbrockpaperscissors\":{\"statusCode\":200,\"body\":{\"name\":\"Curb Rock, Paper, Scissors\",\"subdomain\":\"curbrockpaperscissors\",\"rootSubdomain\":\"curbrockpaperscissors\",\"lastUpdated\":\"2019-01-06T20:31:55.504Z\",\"apiDescriptionFormat\":\"apiblueprint\",\"owner\":{\"_id\":\"5411f121493f020200000132\",\"name\":\"Curb \"},\"user\":{\"trafficSecret\":\"26ac34cde0\",\"isAnonymous\":true},\"urls\":{\"mock\":\"https://private-anon-26ac34cde0-curbrockpaperscissors.apiary-mock.com/rps-stage/\",\"production\":\"https://5eddt4q9dk.execute-api.us-east-1.amazonaws.com/rps-stage/\",\"proxy\":\"https://private-anon-26ac34cde0-curbrockpaperscissors.apiary-proxy.com/rps-stage/\"},\"preferences\":{\"privateTraffic\":true,\"privateDocumentation\":false,\"defaultConsoleMode\":\"cloud\",\"documentation\":{}},\"permissions\":{\"editApi\":false,\"accessApiSettings\":false,\"inviteViewer\":false,\"inviteEditor\":false,\"viewTests\":false,\"viewApiBlueprint\":false},\"editors\":[],\"team\":{\"_id\":\"5411f121493f020200000131\"},\"authDefinitions\":[],\"dataStructures\":[],\"blueprint\":\"\",\"description\":\"\",\"toc\":{\"introduction\":[]},\"resourceGroups\":[{\"name\":\"\",\"description\":\"\",\"resources\":[{\"name\":\"Throws\",\"model\":{},\"headers\":{},\"parameters\":[],\"uriTemplate\":\"/throw\",\"actions\":[{\"name\":\"Retrieve throw\",\"relation\":\"\",\"uriTemplate\":\"\",\"description\":\"\\u003Cp\\u003EReturns a throw (&quot;rock&quot;, &quot;paper&quot;, &quot;scissors&quot;) on sunny days. May error due to weather conditions.\\u003C/p\\u003E\",\"method\":\"GET\",\"parameters\":[],\"headers\":{},\"examples\":[{\"requests\":[{\"body\":\"\",\"schema\":\"\",\"description\":\"\",\"headers\":{},\"headers1A\":[],\"name\":\"\",\"authSchemes\":[]}],\"responses\":[{\"body\":\"{\\n    \\\"statusCode\\\": 200,\\n    \\\"body\\\": \\\"rock\\\"\\n}\",\"schema\":\"\",\"description\":\"\",\"headers\":{\"Content-Type\":\"application/json\"},\"headers1A\":[{\"name\":\"Content-Type\",\"value\":\"application/json\"}],\"status\":\"200\"},{\"body\":\"{\\n    \\\"statusCode\\\": 500,\\n    \\\"body\\\": \\\"Something went wrong. Please try again later.\\\"\\n}\",\"schema\":\"\",\"description\":\"\",\"headers\":{\"Content-Type\":\"application/json\"},\"headers1A\":[{\"name\":\"Content-Type\",\"value\":\"application/json\"}],\"status\":\"500\"}],\"name\":\"\",\"description\":\"\"}]}],\"description\":\"\"}]}]},\"rawBody\":\"\",\"headers\":{}}}","applicationName":"docs","features":{"3ColumnDocumentation":true,"highlightCharLimit":10000,"clientSideConsole":true,"browserExtensionConsole":true,"clientSideProxyConsole":null},"chromeExtensionId":"cboekbiaoabkhgjdclenjpipclabkdga","circleCi":null,"domain":"apiary.io","embedded":false,"isPreview":false,"environment":"production","logLevel":"error","port":"20850","ssl":null,"sslPort":null,"staticHostPath":"https://static.apiary.io/assets","staticMap":null,"titleSeparator":"\u00B7","isAnonymousApi":false,"supportEmail":"support@apiary.io","apiEditorFeatures":{"fasterAnnotations":1,"fasterAnnotationsTimeout":750,"fasterAnnotationsParserEndpoint":"https://helium.apiary-services.com/validate"},"tracking":{"googleAnalytics":{"trackerName":"ApiaryTracker","trackingId":"18252923-1","url":"https://www.google-analytics.com/analytics.js"}},"headerAnnouncementBar":false,"trialUntil":"Nov 1","ocp":1};
+  </script>
+    <!-- /Bootstrap -->
+
+  <!-- JavaScripts -->
+  <script crossorigin="anonymous">window.webpackManifest = {"0":"0-2df7613b.js","1":"1-2df7613b.js","2":"2-2df7613b.js","3":"3-2df7613b.js","4":"4-2df7613b.js","5":"5-2df7613b.js","6":"6-2df7613b.js","7":"7-2df7613b.js","8":"8-2df7613b.js","9":"9-2df7613b.js","10":"10-2df7613b.js","11":"11-2df7613b.js","12":"12-2df7613b.js","13":"13-2df7613b.js","14":"14-2df7613b.js","15":"15-2df7613b.js","16":"16-2df7613b.js","17":"17-2df7613b.js","18":"18-2df7613b.js","19":"19-2df7613b.js","20":"20-2df7613b.js","21":"21-2df7613b.js","22":"22-2df7613b.js","23":"23-2df7613b.js","24":"24-2df7613b.js","25":"25-2df7613b.js","26":"26-2df7613b.js","27":"27-2df7613b.js","28":"28-2df7613b.js","29":"29-2df7613b.js"}</script><script src="https://static.apiary.io/assets/vendor-2df7613b.js" crossorigin="anonymous"></script><script src="https://static.apiary.io/assets/docs-2df7613b.js" crossorigin="anonymous"></script>  <!-- /JavaScripts -->
+</html>
+ with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:10:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:36:55 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 193ms (Views: 191.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:36:57 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 221ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template <!doctype html>
+<html>
+<head>
+  <title>Curb Rock, Paper, Scissors · Apiary</title>
+  <meta charset="utf-8">
+
+  <meta name="google-site-verification" content="2xk1RgCJ7lGo7pJ826cos7moPjcExpih-yXTxfTJ7KU">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="description" content="A place where APIs are kept.">
+  <meta name="author" content="Apiary">
+
+  <meta name="referrer" content="origin">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="canonical" href="https://curbrockpaperscissors.docs.apiary.io/">
+  <link rel="shortcut icon" href="https://static.apiary.io/assets/3aqvBs0H.ico">
+  <link rel="apple-touch-icon-precomposed" href="https://static.apiary.io/assets/2LhCErCD.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://static.apiary.io/assets/kcRGh7aY.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://static.apiary.io/assets/3y9KoZlJ.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://static.apiary.io/assets/fX9wgjhh.png">
+
+    <!-- atom feed autodiscovery -->
+  <link rel="alternate" type="application/atom+xml" title="API changes - Atom feed" href="https://curbrockpaperscissors.docs.apiary.io/feed" />
+  <link rel="alternate" type="application/rss+xml" title="API changes - RSS feed" href="https://curbrockpaperscissors.docs.apiary.io/feed/rss">
+  
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/cboekbiaoabkhgjdclenjpipclabkdga">
+  
+
+  <!-- Styles -->
+  <link rel='stylesheet' crossorigin="anonymous" href="https://static.apiary.io/assets/docs-e13c48ff.css">  <!-- /Styles -->
+
+</head>
+  <body id="application" class="app API_DOCUMENTATION">
+
+    <noscript>
+      <div class="noscript">
+        <a href="https://apiary.io/" title="Apiary Home">
+          <img src="https://static.apiary.io/assets/v6Zkz37_.png" alt="Apiary Logo" class="noscript__logo">
+        </a>
+
+        <div class="noscript__header">
+          <span class="noscript__jslogo"></span>
+          JavaScript is disabled
+        </div>
+
+        <div class="noscript__help">
+          Please continue <a href="http://enable-javascript.com/" class="noscript__link">here</a> to find out how to
+          <br>
+          enable it in your browser.
+        </div>
+      </div>
+    </noscript>
+
+    
+
+        <!-- Header -->
+    <div id="applicationHeaderContainer"></div>
+    <!-- /Header -->
+    
+    <!-- Content -->
+    <div id="applicationContent">
+          </div>
+    <!-- /Content -->
+
+    <!-- Loading -->
+    <div id="applicationLoading"></div>
+    <!-- /Loading -->
+
+    <!-- LoadingBar -->
+    <div id="applicationLoadingBarContainer" class="hidden">
+      <div id="applicationLoadingBar"></div>
+    </div>
+    <!-- LoadingBar -->
+
+  </body>
+
+  <!-- Legacy Bootstrap -->
+  <script>
+    if (!window.config) {
+      window.config = {};
+    }
+
+    window.csrf = "";
+    window.jsLoginUrl    = "";
+        window.trafficSecret = "";
+    window.runExampleIframeUrl = "/___APIARY_INTERNAL___/docs/run-button";
+    window.tryItUrl    = "";
+    window.mockserverUrl    = "";
+    window.loginUri      = "";
+    window.baseDomain    = "";
+
+        window.config.baseAjaxUrl = "https://curbrockpaperscissors.docs.apiary.io/";
+    window.previewHelpers = window.previewHelpers || {};
+
+    
+    window.previewHelpers.apiUrl = window.previewHelpers.mockserverUrl = "";
+
+      </script>
+  <!-- /Legacy Bootstrap -->
+
+  <!-- Bootstrap -->
+  <script>
+    if (!window.Apiary) {
+      window.Apiary = {};
+    }
+    window.Apiary.PAGE = "API_DOCUMENTATION";
+    window.Apiary.APPLICATION_DATA = {"apiName":"Curb Rock, Paper, Scissors","apiSubdomain":"curbrockpaperscissors","networkInitialCache":"{\"https://jsapi.apiary.io/user\":{\"body\":{},\"rawBody\":\"\",\"headers\":{},\"statusCode\":404},\"https://jsapi.apiary.io/apis/curbrockpaperscissors\":{\"statusCode\":200,\"body\":{\"name\":\"Curb Rock, Paper, Scissors\",\"subdomain\":\"curbrockpaperscissors\",\"rootSubdomain\":\"curbrockpaperscissors\",\"lastUpdated\":\"2019-01-06T20:31:55.504Z\",\"apiDescriptionFormat\":\"apiblueprint\",\"owner\":{\"_id\":\"5411f121493f020200000132\",\"name\":\"Curb \"},\"user\":{\"trafficSecret\":\"7ec637602e\",\"isAnonymous\":true},\"urls\":{\"mock\":\"https://private-anon-7ec637602e-curbrockpaperscissors.apiary-mock.com/rps-stage/\",\"production\":\"https://5eddt4q9dk.execute-api.us-east-1.amazonaws.com/rps-stage/\",\"proxy\":\"https://private-anon-7ec637602e-curbrockpaperscissors.apiary-proxy.com/rps-stage/\"},\"preferences\":{\"privateTraffic\":true,\"privateDocumentation\":false,\"defaultConsoleMode\":\"cloud\",\"documentation\":{}},\"permissions\":{\"editApi\":false,\"accessApiSettings\":false,\"inviteViewer\":false,\"inviteEditor\":false,\"viewTests\":false,\"viewApiBlueprint\":false},\"editors\":[],\"team\":{\"_id\":\"5411f121493f020200000131\"},\"authDefinitions\":[],\"dataStructures\":[],\"blueprint\":\"\",\"description\":\"\",\"toc\":{\"introduction\":[]},\"resourceGroups\":[{\"name\":\"\",\"description\":\"\",\"resources\":[{\"name\":\"Throws\",\"model\":{},\"headers\":{},\"parameters\":[],\"uriTemplate\":\"/throw\",\"actions\":[{\"name\":\"Retrieve throw\",\"relation\":\"\",\"uriTemplate\":\"\",\"description\":\"\\u003Cp\\u003EReturns a throw (&quot;rock&quot;, &quot;paper&quot;, &quot;scissors&quot;) on sunny days. May error due to weather conditions.\\u003C/p\\u003E\",\"method\":\"GET\",\"parameters\":[],\"headers\":{},\"examples\":[{\"requests\":[{\"body\":\"\",\"schema\":\"\",\"description\":\"\",\"headers\":{},\"headers1A\":[],\"name\":\"\",\"authSchemes\":[]}],\"responses\":[{\"body\":\"{\\n    \\\"statusCode\\\": 200,\\n    \\\"body\\\": \\\"rock\\\"\\n}\",\"schema\":\"\",\"description\":\"\",\"headers\":{\"Content-Type\":\"application/json\"},\"headers1A\":[{\"name\":\"Content-Type\",\"value\":\"application/json\"}],\"status\":\"200\"},{\"body\":\"{\\n    \\\"statusCode\\\": 500,\\n    \\\"body\\\": \\\"Something went wrong. Please try again later.\\\"\\n}\",\"schema\":\"\",\"description\":\"\",\"headers\":{\"Content-Type\":\"application/json\"},\"headers1A\":[{\"name\":\"Content-Type\",\"value\":\"application/json\"}],\"status\":\"500\"}],\"name\":\"\",\"description\":\"\"}]}],\"description\":\"\"}]}]},\"rawBody\":\"\",\"headers\":{}}}","applicationName":"docs","features":{"3ColumnDocumentation":true,"highlightCharLimit":10000,"clientSideConsole":true,"browserExtensionConsole":true,"clientSideProxyConsole":null},"chromeExtensionId":"cboekbiaoabkhgjdclenjpipclabkdga","circleCi":null,"domain":"apiary.io","embedded":false,"isPreview":false,"environment":"production","logLevel":"error","port":"20850","ssl":null,"sslPort":null,"staticHostPath":"https://static.apiary.io/assets","staticMap":null,"titleSeparator":"\u00B7","isAnonymousApi":false,"supportEmail":"support@apiary.io","apiEditorFeatures":{"fasterAnnotations":1,"fasterAnnotationsTimeout":750,"fasterAnnotationsParserEndpoint":"https://helium.apiary-services.com/validate"},"tracking":{"googleAnalytics":{"trackerName":"ApiaryTracker","trackingId":"18252923-1","url":"https://www.google-analytics.com/analytics.js"}},"headerAnnouncementBar":false,"trialUntil":"Nov 1","ocp":1};
+  </script>
+    <!-- /Bootstrap -->
+
+  <!-- JavaScripts -->
+  <script crossorigin="anonymous">window.webpackManifest = {"0":"0-2df7613b.js","1":"1-2df7613b.js","2":"2-2df7613b.js","3":"3-2df7613b.js","4":"4-2df7613b.js","5":"5-2df7613b.js","6":"6-2df7613b.js","7":"7-2df7613b.js","8":"8-2df7613b.js","9":"9-2df7613b.js","10":"10-2df7613b.js","11":"11-2df7613b.js","12":"12-2df7613b.js","13":"13-2df7613b.js","14":"14-2df7613b.js","15":"15-2df7613b.js","16":"16-2df7613b.js","17":"17-2df7613b.js","18":"18-2df7613b.js","19":"19-2df7613b.js","20":"20-2df7613b.js","21":"21-2df7613b.js","22":"22-2df7613b.js","23":"23-2df7613b.js","24":"24-2df7613b.js","25":"25-2df7613b.js","26":"26-2df7613b.js","27":"27-2df7613b.js","28":"28-2df7613b.js","29":"29-2df7613b.js"}</script><script src="https://static.apiary.io/assets/vendor-2df7613b.js" crossorigin="anonymous"></script><script src="https://static.apiary.io/assets/docs-2df7613b.js" crossorigin="anonymous"></script>  <!-- /JavaScripts -->
+</html>
+ with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:10:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:43:47 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:43:50 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 3727ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/{"errorMessage":"2019-02-27T00:43:53.536Z 61889551-a963-4b00-a4a6-0daa06c2aa8f Task timed out after 3.00 seconds"}, application/{"errorMessage":"2019-02-27T00:43:53.536Z 61889551-a963-4b00-a4a6-0daa06c2aa8f Task timed out after 3.00 seconds"} with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:10:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:44:36 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:44:37 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:44:38 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 218ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:46:24 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 177ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 19:47:04 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:47:06 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 262ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:47:39 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 291ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:47:46 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 128ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:47:59 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 122ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:48:03 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 127ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 19:48:06 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 159ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:06:23 -0500
+  
+SyntaxError (/Users/Schmidward/Desktop/rock_paper_scissors/app/controllers/pages_controller.rb:41: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/pages_controller.rb:41: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:08:35 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 20:08:37 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 172ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 20:09:46 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 272ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 20:09:50 -0500
+Processing by PagesController#throw as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw" for 127.0.0.1 at 2019-02-26 20:10:18 -0500
+Processing by PagesController#throw as HTML
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `body' for "{\"statusCode\":200,\"body\":\"\\\"banana\\\"\"}":String):
+  
+app/controllers/pages_controller.rb:9:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:25:08 -0500
+  
+SyntaxError (/Users/Schmidward/Desktop/rock_paper_scissors/app/controllers/pages_controller.rb:41: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/pages_controller.rb:41: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:26:03 -0500
+  
+SyntaxError (/Users/Schmidward/Desktop/rock_paper_scissors/app/controllers/pages_controller.rb:40: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/pages_controller.rb:40: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:27:00 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:27:07 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+Completed 500 Internal Server Error in 290ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `reponse' for #<PagesController:0x00007ff813321b18>
+Did you mean?  response
+               response
+               response=):
+  
+app/controllers/pages_controller.rb:11:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:28:21 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:28:24 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:28:27 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+Completed 500 Internal Server Error in 663ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `reponse' for #<PagesController:0x00007ff812c766b0>
+Did you mean?  response
+               response
+               response=):
+  
+app/controllers/pages_controller.rb:11:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:29:40 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:29:41 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:29:43 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/throw, application/throw with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:35:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:30:13 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:30:14 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:30:15 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+Completed 500 Internal Server Error in 595ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/throw, application/throw with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:25:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:31:18 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:31:28 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:31:34 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/throw, application/throw with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Schmidward/Desktop/rock_paper_scissors/app/views"
+):
+  
+app/controllers/pages_controller.rb:14:in `throw'
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:33:00 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:33:02 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 180ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:37:29 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:37:32 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 344ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:37:34 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 130ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:37:36 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 134ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:38:00 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (213.1ms)
+Completed 500 Internal Server Error in 381ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `result' for #<#<Class:0x00007ff81644ebf0>:0x00007ff81606b038>
+Did you mean?  rescue):
+    13: 		<%=	link_to "scissors", throw_path(throw: 'scissors') %>
+    14: 	</div>
+    15: 
+    16: 	<%= result %>
+  
+app/views/pages/home.html.erb:16:in `_app_views_pages_home_html_erb___4114949080113545551_70351749074740'
+app/controllers/pages_controller.rb:16:in `throw'
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:38:39 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 321ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:38:40 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 104ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:38:46 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:38:47 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:38:49 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 142ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:39:02 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 319ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:41:22 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 282ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:41:26 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:41:28 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 117ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:42:19 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 175ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:42:22 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 151ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:42:30 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3101ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:42:38 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 124ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:42:39 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 136ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:42:41 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 123ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:42:43 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 153ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 20:42:47 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:43:01 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3187ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:43:31 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 185ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/Schmidward/Desktop/rock_paper_scissors/app/views/pages/home.html.erb:16: syntax error, unexpected ',', expecting ')'
+...nse throw: #{@response_throw}", style: "margin-left: 30px" )...
+...                              ^
+/Users/Schmidward/Desktop/rock_paper_scissors/app/views/pages/home.html.erb:19: syntax error, unexpected ',', expecting ')'
+....append=( "result: #{@result}", style: "margin-left: 30px" );
+...                              ^):
+  
+app/views/pages/home.html.erb:16: syntax error, unexpected ',', expecting ')'
+app/views/pages/home.html.erb:19: syntax error, unexpected ',', expecting ')'
+app/controllers/pages_controller.rb:27:in `throw'
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:43:56 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 288ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:43:58 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 131ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:00 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 130ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:04 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 157ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:05 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 161ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:07 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 135ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:08 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 296ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:10 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 348ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:12 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 143ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:15 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 142ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:17 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 157ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 20:44:19 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 123ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:44:21 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 115ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:44:25 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 118ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:46:15 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-26 20:46:21 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:46:24 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3354ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 20:46:29 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 423ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:04:38 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 481ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 21:04:42 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 122ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 21:04:45 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 123ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=scissors" for 127.0.0.1 at 2019-02-26 21:04:46 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"scissors"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3134ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=paper" for 127.0.0.1 at 2019-02-26 21:04:52 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"paper"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 279ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:09 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 187ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:11 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 98ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:14 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 173ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:15 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 124ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:16 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 117ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:17 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 116ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:18 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 152ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/throw?throw=rock" for 127.0.0.1 at 2019-02-26 21:05:20 -0500
+Processing by PagesController#throw as HTML
+  Parameters: {"throw"=>"rock"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3114ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+

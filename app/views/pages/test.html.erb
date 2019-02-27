@@ -1,0 +1,31 @@
+<h3>test</h3>
+
+	<%
+  if reponse.body == 'rock' && params[:throw] == 'rock'
+  	result = 'tie'
+  elsif reponse.body == 'paper' && params[:throw] == 'rock'
+  	result = 'lose'
+  elsif reponse.body == 'scissors' && params[:throw] == 'rock'
+  	result = 'win'
+
+	elsif reponse.body == 'rock' && params[:throw] == 'paper'
+		result = 'win'
+	elsif reponse.body == 'paper' && params[:throw] == 'paper'
+		result = 'tie'
+	elsif reponse.body == 'scissors' && params[:throw] == 'paper'
+		result = 'lose'
+
+	elsif reponse.body == 'rock' && params[:throw] == 'scissors'
+		result = 'lose'
+	elsif reponse.body == 'paper' && params[:throw] == 'scissors'
+		result = 'win'
+	elsif reponse.body == 'scissors' && params[:throw] == 'scissors'
+		result = 'tie'	 
+
+	elsif response.body == 'cereal'
+		result = 'other player threw "cereal" for some reason. throw again, but slowly this time'
+
+	else
+		result = 'failed round' 
+  end
+  %>

@@ -1,0 +1,19 @@
+<h3>Rock Paper Scissors</h3>
+
+<div class="throw_button">
+	<%=	link_to "rock", throw_path(throw: 'rock') %>
+</div>
+
+<div class="throw_button">
+	<%=	link_to "paper", throw_path(throw: 'paper') %>
+</div>
+
+<div class="throw_button">
+	<%=	link_to "scissors", throw_path(throw: 'scissors') %>
+</div>
+
+<br><br>
+<%= "response throw: #{@response_throw}" %>
+
+<br><br>
+<%= "result: #{@result}" %>
